@@ -66,47 +66,58 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var routes = [
     {
         path: '',
-        component: _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_9__["RecommendedComponent"]
+        component: _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_9__["RecommendedComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'clothing',
-        component: _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_2__["ClothingComponent"]
+        component: _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_2__["ClothingComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'gloves',
-        component: _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_3__["GlovesComponent"]
+        component: _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_3__["GlovesComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'kits',
-        component: _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_4__["KitsComponent"]
+        component: _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_4__["KitsComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'masks',
-        component: _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_5__["MasksComponent"]
+        component: _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_5__["MasksComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'product',
-        component: _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_6__["ProductComponent"]
+        component: _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_6__["ProductComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'kits',
-        component: _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_4__["KitsComponent"]
+        component: _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_4__["KitsComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'sanitizers',
-        component: _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_7__["SanitizersComponent"]
+        component: _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_7__["SanitizersComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'ventilators',
-        component: _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_8__["VentilatorsComponent"]
+        component: _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_8__["VentilatorsComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'about',
-        component: _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"]
+        component: _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"],
+        pathMatch: 'full'
     },
     {
         path: 'contact',
-        component: _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"]
+        component: _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"],
+        pathMatch: 'full'
     },
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -198,21 +209,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _appviews_all_all_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./appviews/all/all.component */ "./src/app/appviews/all/all.component.ts");
-/* harmony import */ var _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./appviews/masks/masks.component */ "./src/app/appviews/masks/masks.component.ts");
-/* harmony import */ var _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./appviews/clothing/clothing.component */ "./src/app/appviews/clothing/clothing.component.ts");
-/* harmony import */ var _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./appviews/sanitizers/sanitizers.component */ "./src/app/appviews/sanitizers/sanitizers.component.ts");
-/* harmony import */ var _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./appviews/kits/kits.component */ "./src/app/appviews/kits/kits.component.ts");
-/* harmony import */ var _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./appviews/gloves/gloves.component */ "./src/app/appviews/gloves/gloves.component.ts");
-/* harmony import */ var _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./appviews/product/product.component */ "./src/app/appviews/product/product.component.ts");
-/* harmony import */ var _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./appviews/ventilators/ventilators.component */ "./src/app/appviews/ventilators/ventilators.component.ts");
-/* harmony import */ var _appviews_nav_nav_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./appviews/nav/nav.component */ "./src/app/appviews/nav/nav.component.ts");
-/* harmony import */ var _appviews_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./appviews/footer/footer.component */ "./src/app/appviews/footer/footer.component.ts");
-/* harmony import */ var _appviews_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./appviews/tabs/tabs.component */ "./src/app/appviews/tabs/tabs.component.ts");
-/* harmony import */ var _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./appviews/recommended/recommended.component */ "./src/app/appviews/recommended/recommended.component.ts");
-/* harmony import */ var _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./appviews/about/about.component */ "./src/app/appviews/about/about.component.ts");
-/* harmony import */ var _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./appviews/contact/contact.component */ "./src/app/appviews/contact/contact.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _appviews_all_all_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./appviews/all/all.component */ "./src/app/appviews/all/all.component.ts");
+/* harmony import */ var _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./appviews/masks/masks.component */ "./src/app/appviews/masks/masks.component.ts");
+/* harmony import */ var _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./appviews/clothing/clothing.component */ "./src/app/appviews/clothing/clothing.component.ts");
+/* harmony import */ var _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./appviews/sanitizers/sanitizers.component */ "./src/app/appviews/sanitizers/sanitizers.component.ts");
+/* harmony import */ var _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./appviews/kits/kits.component */ "./src/app/appviews/kits/kits.component.ts");
+/* harmony import */ var _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./appviews/gloves/gloves.component */ "./src/app/appviews/gloves/gloves.component.ts");
+/* harmony import */ var _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./appviews/product/product.component */ "./src/app/appviews/product/product.component.ts");
+/* harmony import */ var _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./appviews/ventilators/ventilators.component */ "./src/app/appviews/ventilators/ventilators.component.ts");
+/* harmony import */ var _appviews_nav_nav_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./appviews/nav/nav.component */ "./src/app/appviews/nav/nav.component.ts");
+/* harmony import */ var _appviews_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./appviews/footer/footer.component */ "./src/app/appviews/footer/footer.component.ts");
+/* harmony import */ var _appviews_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./appviews/tabs/tabs.component */ "./src/app/appviews/tabs/tabs.component.ts");
+/* harmony import */ var _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./appviews/recommended/recommended.component */ "./src/app/appviews/recommended/recommended.component.ts");
+/* harmony import */ var _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./appviews/about/about.component */ "./src/app/appviews/about/about.component.ts");
+/* harmony import */ var _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./appviews/contact/contact.component */ "./src/app/appviews/contact/contact.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -237,34 +249,35 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _appviews_all_all_component__WEBPACK_IMPORTED_MODULE_4__["AllComponent"],
-                _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_5__["MasksComponent"],
-                _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_6__["ClothingComponent"],
-                _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_7__["SanitizersComponent"],
-                _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_8__["KitsComponent"],
-                _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_9__["GlovesComponent"],
-                _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_10__["ProductComponent"],
-                _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_11__["VentilatorsComponent"],
-                _appviews_nav_nav_component__WEBPACK_IMPORTED_MODULE_12__["NavComponent"],
-                _appviews_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
-                _appviews_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_14__["TabsComponent"],
-                _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_15__["RecommendedComponent"],
-                _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_16__["AboutComponent"],
-                _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_17__["ContactComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _appviews_all_all_component__WEBPACK_IMPORTED_MODULE_5__["AllComponent"],
+                _appviews_masks_masks_component__WEBPACK_IMPORTED_MODULE_6__["MasksComponent"],
+                _appviews_clothing_clothing_component__WEBPACK_IMPORTED_MODULE_7__["ClothingComponent"],
+                _appviews_sanitizers_sanitizers_component__WEBPACK_IMPORTED_MODULE_8__["SanitizersComponent"],
+                _appviews_kits_kits_component__WEBPACK_IMPORTED_MODULE_9__["KitsComponent"],
+                _appviews_gloves_gloves_component__WEBPACK_IMPORTED_MODULE_10__["GlovesComponent"],
+                _appviews_product_product_component__WEBPACK_IMPORTED_MODULE_11__["ProductComponent"],
+                _appviews_ventilators_ventilators_component__WEBPACK_IMPORTED_MODULE_12__["VentilatorsComponent"],
+                _appviews_nav_nav_component__WEBPACK_IMPORTED_MODULE_13__["NavComponent"],
+                _appviews_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"],
+                _appviews_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_15__["TabsComponent"],
+                _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_16__["RecommendedComponent"],
+                _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_17__["AboutComponent"],
+                _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_18__["ContactComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]
             ],
-            providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["APP_BASE_HREF"], useValue: '/' }],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -292,7 +305,7 @@ module.exports = ".text-green {\n    color: #269da1;\n}\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n\n<!--<section id=\"about\">-->\n  <div class=\"container my-5\">\n    <div class=\"row\">\n      <div class=\"col-lg-8 mx-auto text-center\">\n        <!--<h2 class=\"section-heading text-white\">Check out the 90 second pitch video!</h2>-->\n        <h2 class=\"section-heading\">About masks.com</h2>\n        <hr class=\"my-4\">\n        <p class=\" mb-4\">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>\n        <p class=\" mb-4\">\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\n        <!--<p class=\"text-faded mb-4\"><video height=\"500px\" controls=\"controls\" src=\"lasertagvid.MOV\"></video></p>-->\n        <a class=\"btn btn-primary btn-xl js-scroll-trigger\" [routerLink]=\"['']\">Buy Masks</a>\n      </div>\n    </div>\n  </div>\n<!--</section>-->\n"
+module.exports = "\n\n\n<!--<section id=\"about\">-->\n  <div class=\"container my-5\">\n    <div class=\"row\">\n      <div class=\"col-lg-8 mx-auto text-center\">\n        <!--<h2 class=\"section-heading text-white\">Check out the 90 second pitch video!</h2>-->\n        <h2 class=\"section-heading\">About masks.com</h2>\n        <hr class=\"my-4\">\n        <p class=\" mb-4\">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>\n        <p class=\" mb-4\">\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\n        <!--<p class=\"text-faded mb-4\"><video height=\"500px\" controls=\"controls\" src=\"lasertagvid.MOV\"></video></p>-->\n        <a class=\"btn btn-primary btn-xl js-scroll-trigger\" routerLink=\"\">Buy Masks</a>\n      </div>\n    </div>\n  </div>\n<!--</section>-->\n"
 
 /***/ }),
 
@@ -796,7 +809,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Navigation -->\n<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\n  <div class=\"container\">\n\n    <a class=\"navbar-brand js-scroll-trigger\" [routerLink]=\"['']\">masks.com</a>\n    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"['']\">Products</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"['about']\">About</a>\n        </li>\n        <!--<li class=\"nav-item\">-->\n          <!--<a class=\"nav-link js-scroll-trigger\" href=\"#team\">Executive Team</a>-->\n        <!--</li>-->\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"['contact']\">Contact</a>\n        </li>\n        <li class=\"nav-item\">\n\n\n\n<a class=\"header__checkout snipcart-checkout nav-link\">\n    <svg width=\"31\" height=\"27\" viewBox=\"0 0 31 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M1.10512 0.368718C0.560256 0.368718 0.118164 0.812066 0.118164 1.35848C0.118164 1.9049 0.560256 2.34824 1.10512 2.34824H4.90887L8.30138 18.4009C8.43503 19.0053 8.83085 19.5079 9.32946 19.5041H25.7788C26.3005 19.5118 26.7799 19.0375 26.7799 18.5143C26.7799 17.9911 26.3006 17.5168 25.7788 17.5245H10.1315L9.71003 15.545H27.095C27.5371 15.5412 27.9547 15.2048 28.0511 14.7718L30.354 4.87412C30.4825 4.29933 29.9852 3.67172 29.3979 3.66786H7.21171L6.6771 1.15221C6.58329 0.71276 6.15921 0.368652 5.7107 0.368652L1.10512 0.368718ZM7.623 5.64746H12.7634L13.2569 8.61674H8.25005L7.623 5.64746ZM14.7785 5.64746H20.9881L20.4946 8.61674H15.2719L14.7785 5.64746ZM23.0031 5.64746H28.1537L27.4649 8.61674H22.5097L23.0031 5.64746ZM8.67181 10.5963H13.5862L14.0797 13.5656H9.29919L8.67181 10.5963ZM15.6009 10.5963H20.1656L19.6721 13.5656H16.0944L15.6009 10.5963ZM22.1807 10.5963H27.0023L26.3135 13.5656H21.6872L22.1807 10.5963ZM12.6197 20.164C10.8141 20.164 9.32979 21.6525 9.32979 23.4632C9.32979 25.2739 10.8141 26.7624 12.6197 26.7624C14.4252 26.7624 15.9095 25.2739 15.9095 23.4632C15.9095 21.6525 14.4252 20.164 12.6197 20.164ZM22.4892 20.164C20.6837 20.164 19.1994 21.6525 19.1994 23.4632C19.1994 25.2739 20.6837 26.7624 22.4892 26.7624C24.2948 26.7624 25.7791 25.2739 25.7791 23.4632C25.7791 21.6525 24.2948 20.164 22.4892 20.164ZM12.6197 22.1435C13.3586 22.1435 13.9356 22.7222 13.9356 23.4632C13.9356 24.2042 13.3586 24.7829 12.6197 24.7829C11.8807 24.7829 11.3037 24.2042 11.3037 23.4632C11.3037 22.7222 11.8807 22.1435 12.6197 22.1435ZM22.4892 22.1435C23.2282 22.1435 23.8052 22.7222 23.8052 23.4632C23.8052 24.2042 23.2282 24.7829 22.4892 24.7829C21.7503 24.7829 21.1733 24.2042 21.1733 23.4632C21.1733 22.7222 21.7503 22.1435 22.4892 22.1435Z\" fill=\"#269da1\" class=\"header__checkout-fill\"></path>\n    </svg>\n    <span class=\"snipcart-total-price\">$0.00</span>\n    (<span class=\"snipcart-items-count\">0</span>)\n  </a>\n\n\n\n\n\n        </li>\n      </ul>\n    </div>\n  </div>\n\n</nav>\n\n<!--<header class=\"masthead text-center text-white d-flex\">-->\n  <!--<div class=\"container my-auto\">-->\n    <!--&lt;!&ndash;style=\"text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;\"&ndash;&gt;-->\n    <!--<div class=\"row\">-->\n      <!--<div class=\"col-lg-10 mx-auto\">-->\n        <!--<h1 class=\"text-uppercase\">-->\n          <!--<strong>Your Online Store for Medical Masks</strong>-->\n        <!--</h1>-->\n        <!--<hr>-->\n      <!--</div>-->\n      <!--<div class=\"col-lg-8 mx-auto\">-->\n        <!--<p style=\"font-weight: bold\" class=\" mb-5\">We are working with our manufacturing and supply chain partners, as well as global health organizations, to provide much needed medical masks around the US.</p>-->\n        <!--<a class=\"btn btn-primary btn-xl js-scroll-trigger\" href=\"#products\">Find Out More</a>-->\n      <!--</div>-->\n    <!--</div>-->\n  <!--</div>-->\n<!--</header>-->\n\n\n"
+module.exports = "<!-- Navigation -->\n<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\n  <div class=\"container\">\n\n    <a class=\"navbar-brand js-scroll-trigger\" routerLink=\"\">masks.com</a>\n    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" routerLink=\"\">Products</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" routerLink=\"about\">About</a>\n        </li>\n        <!--<li class=\"nav-item\">-->\n          <!--<a class=\"nav-link js-scroll-trigger\" href=\"#team\">Executive Team</a>-->\n        <!--</li>-->\n        <li class=\"nav-item\">\n          <a class=\"nav-link js-scroll-trigger\" routerLink=\"contact\">Contact</a>\n        </li>\n        <li class=\"nav-item\">\n\n\n\n<a class=\"header__checkout snipcart-checkout nav-link\">\n    <svg width=\"31\" height=\"27\" viewBox=\"0 0 31 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M1.10512 0.368718C0.560256 0.368718 0.118164 0.812066 0.118164 1.35848C0.118164 1.9049 0.560256 2.34824 1.10512 2.34824H4.90887L8.30138 18.4009C8.43503 19.0053 8.83085 19.5079 9.32946 19.5041H25.7788C26.3005 19.5118 26.7799 19.0375 26.7799 18.5143C26.7799 17.9911 26.3006 17.5168 25.7788 17.5245H10.1315L9.71003 15.545H27.095C27.5371 15.5412 27.9547 15.2048 28.0511 14.7718L30.354 4.87412C30.4825 4.29933 29.9852 3.67172 29.3979 3.66786H7.21171L6.6771 1.15221C6.58329 0.71276 6.15921 0.368652 5.7107 0.368652L1.10512 0.368718ZM7.623 5.64746H12.7634L13.2569 8.61674H8.25005L7.623 5.64746ZM14.7785 5.64746H20.9881L20.4946 8.61674H15.2719L14.7785 5.64746ZM23.0031 5.64746H28.1537L27.4649 8.61674H22.5097L23.0031 5.64746ZM8.67181 10.5963H13.5862L14.0797 13.5656H9.29919L8.67181 10.5963ZM15.6009 10.5963H20.1656L19.6721 13.5656H16.0944L15.6009 10.5963ZM22.1807 10.5963H27.0023L26.3135 13.5656H21.6872L22.1807 10.5963ZM12.6197 20.164C10.8141 20.164 9.32979 21.6525 9.32979 23.4632C9.32979 25.2739 10.8141 26.7624 12.6197 26.7624C14.4252 26.7624 15.9095 25.2739 15.9095 23.4632C15.9095 21.6525 14.4252 20.164 12.6197 20.164ZM22.4892 20.164C20.6837 20.164 19.1994 21.6525 19.1994 23.4632C19.1994 25.2739 20.6837 26.7624 22.4892 26.7624C24.2948 26.7624 25.7791 25.2739 25.7791 23.4632C25.7791 21.6525 24.2948 20.164 22.4892 20.164ZM12.6197 22.1435C13.3586 22.1435 13.9356 22.7222 13.9356 23.4632C13.9356 24.2042 13.3586 24.7829 12.6197 24.7829C11.8807 24.7829 11.3037 24.2042 11.3037 23.4632C11.3037 22.7222 11.8807 22.1435 12.6197 22.1435ZM22.4892 22.1435C23.2282 22.1435 23.8052 22.7222 23.8052 23.4632C23.8052 24.2042 23.2282 24.7829 22.4892 24.7829C21.7503 24.7829 21.1733 24.2042 21.1733 23.4632C21.1733 22.7222 21.7503 22.1435 22.4892 22.1435Z\" fill=\"#269da1\" class=\"header__checkout-fill\"></path>\n    </svg>\n    <span class=\"snipcart-total-price\">$0.00</span>\n    (<span class=\"snipcart-items-count\">0</span>)\n  </a>\n\n\n\n\n\n        </li>\n      </ul>\n    </div>\n  </div>\n\n</nav>\n\n<!--<header class=\"masthead text-center text-white d-flex\">-->\n  <!--<div class=\"container my-auto\">-->\n    <!--&lt;!&ndash;style=\"text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;\"&ndash;&gt;-->\n    <!--<div class=\"row\">-->\n      <!--<div class=\"col-lg-10 mx-auto\">-->\n        <!--<h1 class=\"text-uppercase\">-->\n          <!--<strong>Your Online Store for Medical Masks</strong>-->\n        <!--</h1>-->\n        <!--<hr>-->\n      <!--</div>-->\n      <!--<div class=\"col-lg-8 mx-auto\">-->\n        <!--<p style=\"font-weight: bold\" class=\" mb-5\">We are working with our manufacturing and supply chain partners, as well as global health organizations, to provide much needed medical masks around the US.</p>-->\n        <!--<a class=\"btn btn-primary btn-xl js-scroll-trigger\" href=\"#products\">Find Out More</a>-->\n      <!--</div>-->\n    <!--</div>-->\n  <!--</div>-->\n<!--</header>-->\n\n\n"
 
 /***/ }),
 
@@ -1049,7 +1062,7 @@ module.exports = "@media (min-width: 1281px){\n    nav {\n        margin-top: 10
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--<br><br><br>-->\n <nav role=\"navigation\" class=\"navbar-serge nav-tabs\">\n\n<div class=\"container\">\n<div class=\"row bg-light\">\n\n    <a class=\"col nav-item nav-link btn-light text-center\" data-toggle=\"tab\" [routerLink]=\"['']\" [routerLinkActive]=\"'active'\" [routerLinkActiveOptions]=\"{ exact: true }\">\n        Recommended\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" [routerLink]=\"['masks']\" [routerLinkActive]=\"'active'\">\n        Masks\n    </a>\n    <a class=\"col nav-item nav-link btn-light 3 text-center\" data-toggle=\"tab\" [routerLink]=\"['clothing']\" [routerLinkActive]=\"'active'\">\n        Clothing\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" [routerLink]=\"['sanitizers']\" [routerLinkActive]=\"'active'\">\n        Sanitizers\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" [routerLink]=\"['ventilators']\" [routerLinkActive]=\"'active'\">\n        Ventilators\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" [routerLink]=\"['kits']\" [routerLinkActive]=\"'active'\">\n        Testing Kits\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" [routerLink]=\"['gloves']\" [routerLinkActive]=\"'active'\">\n        Gloves\n    </a>\n\n\n</div>\n\n</div>\n\n\n</nav>\n"
+module.exports = "<!--<br><br><br>-->\n <nav role=\"navigation\" class=\"navbar-serge nav-tabs\">\n\n<div class=\"container\">\n<div class=\"row bg-light\">\n\n    <a class=\"col nav-item nav-link btn-light text-center\" data-toggle=\"tab\" routerLink=\"\" [routerLinkActive]=\"'active'\" [routerLinkActiveOptions]=\"{ exact: true }\">\n        Recommended\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" routerLink=\"masks\" [routerLinkActive]=\"'active'\">\n        Masks\n    </a>\n    <a class=\"col nav-item nav-link btn-light 3 text-center\" data-toggle=\"tab\" routerLink=\"clothing\" [routerLinkActive]=\"'active'\">\n        Clothing\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" routerLink=\"sanitizers\" [routerLinkActive]=\"'active'\">\n        Sanitizers\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" routerLink=\"ventilators\" [routerLinkActive]=\"'active'\">\n        Ventilators\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" routerLink=\"kits\" [routerLinkActive]=\"'active'\">\n        Testing Kits\n    </a>\n    <a class=\"col nav-item nav-link btn-light  text-center\" data-toggle=\"tab\" routerLink=\"gloves\" [routerLinkActive]=\"'active'\">\n        Gloves\n    </a>\n\n\n</div>\n\n</div>\n\n\n</nav>\n"
 
 /***/ }),
 
