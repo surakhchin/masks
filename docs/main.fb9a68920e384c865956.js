@@ -45,12 +45,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./appviews/recommended/recommended.component */ "./src/app/appviews/recommended/recommended.component.ts");
 /* harmony import */ var _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./appviews/about/about.component */ "./src/app/appviews/about/about.component.ts");
 /* harmony import */ var _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./appviews/contact/contact.component */ "./src/app/appviews/contact/contact.component.ts");
+/* harmony import */ var _appviews_m31826_m31826_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./appviews/m31826/m31826.component */ "./src/app/appviews/m31826/m31826.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -119,6 +121,11 @@ var routes = [
         component: _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"],
         pathMatch: 'full'
     },
+    {
+        path: 'm31826',
+        component: _appviews_m31826_m31826_component__WEBPACK_IMPORTED_MODULE_12__["M31826Component"],
+        pathMatch: 'full'
+    }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -225,12 +232,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./appviews/recommended/recommended.component */ "./src/app/appviews/recommended/recommended.component.ts");
 /* harmony import */ var _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./appviews/about/about.component */ "./src/app/appviews/about/about.component.ts");
 /* harmony import */ var _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./appviews/contact/contact.component */ "./src/app/appviews/contact/contact.component.ts");
+/* harmony import */ var _appviews_m31826_m31826_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./appviews/m31826/m31826.component */ "./src/app/appviews/m31826/m31826.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -270,7 +279,8 @@ var AppModule = /** @class */ (function () {
                 _appviews_tabs_tabs_component__WEBPACK_IMPORTED_MODULE_15__["TabsComponent"],
                 _appviews_recommended_recommended_component__WEBPACK_IMPORTED_MODULE_16__["RecommendedComponent"],
                 _appviews_about_about_component__WEBPACK_IMPORTED_MODULE_17__["AboutComponent"],
-                _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_18__["ContactComponent"]
+                _appviews_contact_contact_component__WEBPACK_IMPORTED_MODULE_18__["ContactComponent"],
+                _appviews_m31826_m31826_component__WEBPACK_IMPORTED_MODULE_19__["M31826Component"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -728,6 +738,69 @@ var KitsComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/appviews/m31826/m31826.component.css":
+/*!******************************************************!*\
+  !*** ./src/app/appviews/m31826/m31826.component.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/appviews/m31826/m31826.component.html":
+/*!*******************************************************!*\
+  !*** ./src/app/appviews/m31826/m31826.component.html ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  m31826 works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/appviews/m31826/m31826.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/appviews/m31826/m31826.component.ts ***!
+  \*****************************************************/
+/*! exports provided: M31826Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M31826Component", function() { return M31826Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var M31826Component = /** @class */ (function () {
+    function M31826Component() {
+    }
+    M31826Component.prototype.ngOnInit = function () {
+    };
+    M31826Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-m31826',
+            template: __webpack_require__(/*! ./m31826.component.html */ "./src/app/appviews/m31826/m31826.component.html"),
+            styles: [__webpack_require__(/*! ./m31826.component.css */ "./src/app/appviews/m31826/m31826.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], M31826Component);
+    return M31826Component;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/appviews/masks/masks.component.css":
 /*!****************************************************!*\
   !*** ./src/app/appviews/masks/masks.component.css ***!
@@ -936,7 +1009,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--<section class=\"\">-->\n      <!--<div class=\"container\">-->\n        <!--<div class=\"row\" >-->\n          <!--<div class=\"col-lg-12 text-center\">-->\n            <!--<h2 class=\"section-heading\">Products</h2>-->\n            <!--<hr class=\"my-4\">-->\n          <!--</div>-->\n        <!--</div>-->\n      <!--</div>-->\n      <div class=\"container-fluid\" id=\"products\">\n        <div class=\"row\">\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/PRM.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">4 ply N95 Surgical Mask</h5>\n              <br><br class=\"d-xl-none\">\n              <p class=\"text-muted mb-0\">Our PRM-95 is a 4 Ply filter mask with a carbon layer with more filtration and highly comparable to the N95 filters in the marketplace.</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"1\"\n  data-item-price=\"2.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Our PRM-95 is a 4 Ply filter mask with a carbon layer with more filtration and highly comparable to the N95 filters in the marketplace.\"\n  data-item-image=\"assets/img/PRM.png\"\n  data-item-name=\"4 ply N95 Surgical Mask\">\n  Add to cart\n</button>\n\n\n\n\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/KN95.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">KN95 Respirator Face Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">Multilayer protection: Filters out 95% of air born pollutants. Adjustable nose bridge and elastic ear loop for a tight seal</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"2\"\n  data-item-price=\"4.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Multilayer protection: Filters out 95% of air born pollutants. Adjustable nose bridge and elastic ear loop for a tight seal.\"\n  data-item-image=\"assets/img/KN95.png\"\n  data-item-name=\"KN95 Respirator Face Mask\">\n  Add to cart\n</button>\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/N95.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">NIOSH Particulate Respirator Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">Niosh Particulate Respirator Mask Filters out 95% of air born pollutants. Meets CDC guidelines for exposure control</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"3\"\n  data-item-price=\"5.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Niosh Particulate Respirator Mask Filters out 95% of air born pollutants. Meets CDC guidelines for exposure control.\"\n  data-item-image=\"assets/img/N95.png\"\n  data-item-name=\"NIOSH Particulate Respirator Mask\">\n  Add to cart\n</button>\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/3M3.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">FFP3 Surgical Mask 3 Ply</h5>\n              <br>\n              <p class=\"text-muted mb-0\">SM-3 Ply is a disposable medical device that reduces wearers exposure to particles.</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"4\"\n  data-item-price=\"3.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"SM-3 Ply is a disposable medical device that reduces wearers exposure to particles.\"\n  data-item-image=\"assets/img/3M3.png\"\n  data-item-name=\"FFP3 Surgical Mask 3 Ply\">\n  Add to cart\n</button>\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/3M1860.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">3M 1860 Respirator Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">3M 1860 Respirator Mask FDA Cleared for use as surgical mask, >99% BFE (Bacterial Filtration Efficiency) according to ASTM F2101 and Fluid resistant according to ASTM F1862</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"5\"\n  data-item-price=\"7.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"3M 1860 Respirator Mask FDA Cleared for use as surgical mask, >99% BFE (Bacterial Filtration Efficiency) according to ASTM F2101 and Fluid resistant according to ASTM F1862.\"\n  data-item-image=\"assets/img/3M1860.png\"\n  data-item-name=\"3M 1860 Respirator Mask\">\n  Add to cart\n</button>\n\n\n\n\n\n            </div>\n          </div>\n        </div>\n      </div>\n    <!--</section>-->\n"
+module.exports = "<!--<section class=\"\">-->\n      <!--<div class=\"container\">-->\n        <!--<div class=\"row\" >-->\n          <!--<div class=\"col-lg-12 text-center\">-->\n            <!--<h2 class=\"section-heading\">Products</h2>-->\n            <!--<hr class=\"my-4\">-->\n          <!--</div>-->\n        <!--</div>-->\n      <!--</div>-->\n      <div class=\"container-fluid\" id=\"products\">\n        <div class=\"row\">\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/PRM.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">4 ply N95 Surgical Mask</h5>\n              <br><br class=\"d-xl-none\">\n              <p class=\"text-muted mb-0\">Our PRM-95 is a 4 Ply filter mask with a carbon layer with more filtration and highly comparable to the N95 filters in the marketplace.</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"1\"\n  data-item-price=\"2.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Our PRM-95 is a 4 Ply filter mask with a carbon layer with more filtration and highly comparable to the N95 filters in the marketplace.\"\n  data-item-image=\"assets/img/PRM.png\"\n  data-item-name=\"4 ply N95 Surgical Mask\">\n  Add to cart\n</button>\n\n\n\n\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/KN95.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">KN95 Respirator Face Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">Multilayer protection: Filters out 95% of air born pollutants. Adjustable nose bridge and elastic ear loop for a tight seal</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"2\"\n  data-item-price=\"4.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Multilayer protection: Filters out 95% of air born pollutants. Adjustable nose bridge and elastic ear loop for a tight seal.\"\n  data-item-image=\"assets/img/KN95.png\"\n  data-item-name=\"KN95 Respirator Face Mask\">\n  Add to cart\n</button>\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/N95.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">NIOSH Particulate Respirator Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">Niosh Particulate Respirator Mask Filters out 95% of air born pollutants. Meets CDC guidelines for exposure control</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"3\"\n  data-item-price=\"5.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"Niosh Particulate Respirator Mask Filters out 95% of air born pollutants. Meets CDC guidelines for exposure control.\"\n  data-item-image=\"assets/img/N95.png\"\n  data-item-name=\"NIOSH Particulate Respirator Mask\">\n  Add to cart\n</button>\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <a routerLink=\"m31826\"><img style=\"max-height: 120px\" src=\"../masks/assets/img/3M3.png\"></a>\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">FFP3 Surgical Mask 3 Ply</h5>\n              <br>\n              <p class=\"text-muted mb-0\">SM-3 Ply is a disposable medical device that reduces wearers exposure to particles.</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"4\"\n  data-item-price=\"3.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"SM-3 Ply is a disposable medical device that reduces wearers exposure to particles.\"\n  data-item-image=\"assets/img/3M3.png\"\n  data-item-name=\"FFP3 Surgical Mask 3 Ply\">\n  Add to cart\n</button>\n\n\n\n\n            </div>\n          </div>\n          <div class=\"col-sm col-xs-12 text-center d-flex flex-column justify-content-between\">\n            <div class=\"service-box mt-5 mx-auto\">\n              <img style=\"max-height: 120px\" src=\"../masks/assets/img/3M1860.png\">\n              <br><br>\n              <h5 class=\"mb-3\" style=\"font-weight: bold\">3M 1860 Respirator Mask</h5>\n              <br>\n              <p class=\"text-muted mb-0\">3M 1860 Respirator Mask FDA Cleared for use as surgical mask, >99% BFE (Bacterial Filtration Efficiency) according to ASTM F2101 and Fluid resistant according to ASTM F1862</p><br>\n            </div>\n            <div class=\"pb-4\">\n\n\n\n\n\n              <!--<a class=\"btn btn-primary js-scroll-trigger\" target=\"_blank\" href=\"gun.html\">Play Now!</a>-->\n\n\n\n<button class=\"snipcart-add-item btn btn-primary\"\n  data-item-id=\"5\"\n  data-item-price=\"7.99\"\n  data-item-url=\"https://surakhchin.github.io/masks/products.json\"\n  data-item-description=\"3M 1860 Respirator Mask FDA Cleared for use as surgical mask, >99% BFE (Bacterial Filtration Efficiency) according to ASTM F2101 and Fluid resistant according to ASTM F1862.\"\n  data-item-image=\"assets/img/3M1860.png\"\n  data-item-name=\"3M 1860 Respirator Mask\">\n  Add to cart\n</button>\n\n\n\n\n\n            </div>\n          </div>\n        </div>\n      </div>\n    <!--</section>-->\n"
 
 /***/ }),
 
@@ -1333,4 +1406,4 @@ module.exports = __webpack_require__(/*! /Users/georgeurakhchin/Documents/masks-
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main.8e27e1edf6a79835180b.js.map
+//# sourceMappingURL=main.fb9a68920e384c865956.js.map
